@@ -24,7 +24,7 @@ npm run dev / yarn dev
 ## 项目结构
 
 ```
-fs-manage
+web-project-react-vite
 ├── README.md
 ├── node_modules
 ├── package.json
