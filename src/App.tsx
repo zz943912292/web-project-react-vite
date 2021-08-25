@@ -12,7 +12,7 @@ const App = () => (
       <Suspense fallback={<div>Loading</div>}>
         <Switch>
           {routes.map((route) => (
-            <Route {...route} />
+            <Route {...route} key={route.path as string} />
           ))}
         </Switch>
       </Suspense>

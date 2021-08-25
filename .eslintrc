@@ -59,6 +59,7 @@
     "no-debugger": "off",
     "max-classes-per-file": "off",
     "no-use-before-define": "off",
+    "consistent-return": "off",
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
